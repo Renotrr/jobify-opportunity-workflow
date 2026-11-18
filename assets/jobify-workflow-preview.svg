@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Jobify workflow preview</title>
+  <desc id="desc">Illustrative diagram showing opportunity intake, evidence capture, requirement analysis, eligibility and fit checks, portfolio matching, a tailored package and human review. Not a screenshot of a deployed application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#101d2e"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#12233a"/><stop offset="1" stop-color="#192d47"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M1 1 L9 6 L1 11" fill="none" stroke="#7dd3fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1440" height="900" rx="26" fill="url(#bg)"/>
+  <text x="84" y="92" fill="#8aa5c2" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">JOBIFY / OPPORTUNITY INTELLIGENCE</text>
+  <text x="84" y="160" fill="#f8fafc" font-family="Arial, sans-serif" font-weight="700" font-size="54">From opportunity to reviewed application</text>
+  <text x="84" y="204" fill="#a9bfd7" font-family="Arial, sans-serif" font-size="24">Illustrative workflow preview · Not a screenshot of a deployed application</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="84" y="286" width="360" height="170" rx="18" fill="url(#panel)" stroke="#315071"/>
+    <text x="116" y="330" fill="#7dd3fc" font-size="17" letter-spacing="2">01 / INTAKE</text>
+    <text x="116" y="376" fill="#f8fafc" font-size="28" font-weight="700">Opportunity sources</text>
+    <text x="116" y="414" fill="#b8c9dc" font-size="19">Job boards · freelance · client signals</text>
+    <rect x="540" y="286" width="360" height="170" rx="18" fill="url(#panel)" stroke="#315071"/>
+    <text x="572" y="330" fill="#7dd3fc" font-size="17" letter-spacing="2">02 / EVIDENCE</text>
+    <text x="572" y="376" fill="#f8fafc" font-size="28" font-weight="700">Normalize &amp; deduplicate</text>
+    <text x="572" y="414" fill="#b8c9dc" font-size="19">Keep original source and excerpts</text>
+    <rect x="996" y="286" width="360" height="170" rx="18" fill="url(#panel)" stroke="#315071"/>
+    <text x="1028" y="330" fill="#7dd3fc" font-size="17" letter-spacing="2">03 / ANALYSIS</text>
+    <text x="1028" y="376" fill="#f8fafc" font-size="28" font-weight="700">Requirements &amp; fit</text>
+    <text x="1028" y="414" fill="#b8c9dc" font-size="19">Required · preferred · negated · eligible</text>
+    <path d="M444 371 H530" stroke="#7dd3fc" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M900 371 H986" stroke="#7dd3fc" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <rect x="260" y="554" width="400" height="170" rx="18" fill="url(#panel)" stroke="#315071"/>
+    <text x="294" y="598" fill="#7dd3fc" font-size="17" letter-spacing="2">04 / MATCH</text>
+    <text x="294" y="644" fill="#f8fafc" font-size="28" font-weight="700">Select relevant proof</text>
+    <text x="294" y="682" fill="#b8c9dc" font-size="19">Approved profile facts + portfolio items</text>
+    <rect x="780" y="554" width="400" height="170" rx="18" fill="url(#panel)" stroke="#315071"/>
+    <text x="814" y="598" fill="#7dd3fc" font-size="17" letter-spacing="2">05 / HUMAN REVIEW</text>
+    <text x="814" y="644" fill="#f8fafc" font-size="28" font-weight="700">Tailored package</text>
+    <text x="814" y="682" fill="#b8c9dc" font-size="19">CV · application · outreach draft</text>
+    <path d="M1176 456 C1176 510 1080 510 1080 544" stroke="#7dd3fc" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M660 640 H770" stroke="#7dd3fc" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <rect x="84" y="790" width="1272" height="54" rx="12" fill="#0d1727" stroke="#253b56"/>
+    <text x="116" y="825" fill="#cbd5e1" font-size="18">51 / 51 offline checks passing in latest saved local checkpoint · Google Workspace deployment not yet completed</text>
+  </g>
+</svg>
